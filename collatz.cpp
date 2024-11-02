@@ -7,7 +7,6 @@
 using namespace std;
 using namespace std::literals::chrono_literals;
 
-
 void collatz(long long num) {
 
     if (num <= 0) {
