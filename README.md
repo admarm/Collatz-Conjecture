@@ -1,6 +1,3 @@
-# THE README.md NEEDS TO BE FINISHED
-Input validation needs to be implemented in the code (if num <= 0) throw an exception or a runtime_error indicating that the number should be positive.
-
 # Collatz-Conjecture
 The Collatz Conjecture made in C++
 
@@ -13,10 +10,8 @@ The program can be run through the executable (.exe) or by using a terminal with
 
 Valid arguments are:  
 
-Starting number (Must be positive).
+(1) Starting number (*Must be positive*).
 
-Example: ./collatz 10
+Terminal version:
 
-// Add a .exe and ./ example screenshots
-
-# THE README.md NEEDS TO BE FINISHED
+![image](https://github.com/user-attachments/assets/00e962a1-a1f1-4f7c-8652-4dd7955f2094)
