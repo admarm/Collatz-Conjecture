@@ -1,4 +1,4 @@
-# Collatz-Conjecture
+# Collatz Conjecture
 The Collatz Conjecture made in C++
 
 The program implements the Collatz Conjecture, also known as the **3n + 1 problem**. 
