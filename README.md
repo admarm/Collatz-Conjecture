@@ -17,4 +17,6 @@ Starting number (Must be positive).
 
 Example: ./collatz 10
 
+// Add a .exe and ./ example screenshots
+
 # THE README.md NEEDS TO BE FINISHED
