@@ -1,5 +1,4 @@
 // Collatz Conjecture in cpp
-// Add peek - highest number - add all nums to an array and then sort it and print the biggest one
 #include <iostream>
 #include <chrono>
 #include <vector>
