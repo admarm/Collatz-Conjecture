@@ -12,6 +12,4 @@ Valid arguments are:
 
 (1) Starting number (*Must be positive*).
 
-Terminal version:
-
 ![image](https://github.com/user-attachments/assets/00e962a1-a1f1-4f7c-8652-4dd7955f2094)
