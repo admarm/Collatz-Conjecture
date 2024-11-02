@@ -1,5 +1,5 @@
 # THE README.md NEEDS TO BE FINISHED
-# And input validation needs to be implemented in the code (if num <= 0) throw an exception or a runtime_error indicating that the number should be positive.
+Input validation needs to be implemented in the code (if num <= 0) throw an exception or a runtime_error indicating that the number should be positive.
 
 # Collatz-Conjecture
 The Collatz Conjecture made in C++
