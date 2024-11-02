@@ -9,13 +9,20 @@ using namespace std::literals::chrono_literals;
 
 
 void collatz(long long num) {
-    
+
+    if (num <= 0) {
+        throw "The starting number must be a positive intiger\n";
+    }
+    else if (num == 1) {
+        throw "The starting number must be a positive intiger other than 1.\n";
+    }
+
     long long num_count = 0;
 
     vector<long long> Numbers;
 
     auto start = chrono::high_resolution_clock::now(); // Starts the timer.
-
+        
     while (num != 1) {
 
         if (num % 2 == 0) { // If the number is even, divide it by two.
@@ -51,8 +58,14 @@ int main(int argc, char* argv[])
         number = atof(argv[1]);
     }
 
-    collatz(number); // Call the collatz function.
+    try {
+        collatz(number); // Call the collatz function.
+    }
+    catch (const char* msg) { // Catch and display the exception.
+        cerr << "\nError: " << msg;
+    }
 
-    cin.get();
+    cin.ignore(); // Clear any leftover newline in the input buffer.
+    cin.get(); // Waits for user input before closing.
     return 0;
 }
